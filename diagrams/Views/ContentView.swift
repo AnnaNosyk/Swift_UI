@@ -11,11 +11,19 @@ struct ContentView: View {
     
     @State var pickerItem = 0
     @State var diagramValues:[[CGFloat]] = [
-        [ 50, 130, 120 ],
-        [ 20, 70, 200 ],
-        [ 190, 20, 60 ]
+        [ 50, 170, 120 ],
+        [ 20, 130, 200 ],
+        [ 130, 20, 100 ]
     
     ]
+    
+    @State var circleDiagramValues:[[CGFloat]] = [
+        [ 0.1, 0.7, 0.5 ],
+        [ 0.2, 0.5, 0.9 ],
+        [ 0.3, 0.5, 0.8 ]
+    
+    ]
+
     var body: some View {
             ZStack {
                 Color("background").edgesIgnoringSafeArea(.all)
@@ -29,15 +37,15 @@ struct ContentView: View {
                         Text("2023").tag(2)
                     }.pickerStyle(.segmented).padding(.horizontal, 16)
                     HStack {
-                        CircleView(value: 0.4)
-                        CircleView(value: 0.5)
-                        CircleView(value: 0.7)
+                        CircleView(value: circleDiagramValues[pickerItem][0])
+                        CircleView(value: circleDiagramValues[pickerItem][1])
+                        CircleView(value: circleDiagramValues[pickerItem][2])
                     }.padding(.top, 16)
-                    HStack() {
+                    HStack {
                         DiagramView(value: diagramValues[pickerItem][0])
                         DiagramView(value: diagramValues[pickerItem][1])
                         DiagramView(value: diagramValues[pickerItem][2])
-                    }.padding(.top, 16)
+                    }.padding(.top, 16.0)
                     Spacer(minLength: 100)
                 }
             }

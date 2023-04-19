@@ -10,6 +10,9 @@
 		17399F9829EEEDA0002CE762 /* CircleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17399F9729EEEDA0002CE762 /* CircleShape.swift */; };
 		17399F9A29EEF201002CE762 /* DiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17399F9929EEF201002CE762 /* DiagramView.swift */; };
 		17399F9C29EEF221002CE762 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17399F9B29EEF221002CE762 /* CircleView.swift */; };
+		17399F9E29F040CB002CE762 /* Diagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17399F9D29F040CB002CE762 /* Diagram.swift */; };
+		17399FA029F04197002CE762 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17399F9F29F04197002CE762 /* MyData.swift */; };
+		17399FA329F04257002CE762 /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17399FA229F04257002CE762 /* DataContainer.swift */; };
 		177E6AB029EECD1E000E7507 /* diagramsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177E6AAF29EECD1E000E7507 /* diagramsApp.swift */; };
 		177E6AB229EECD1E000E7507 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177E6AB129EECD1E000E7507 /* ContentView.swift */; };
 		177E6AB429EECD1F000E7507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177E6AB329EECD1F000E7507 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 		17399F9729EEEDA0002CE762 /* CircleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleShape.swift; sourceTree = "<group>"; };
 		17399F9929EEF201002CE762 /* DiagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramView.swift; sourceTree = "<group>"; };
 		17399F9B29EEF221002CE762 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		17399F9D29F040CB002CE762 /* Diagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagram.swift; sourceTree = "<group>"; };
+		17399F9F29F04197002CE762 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		17399FA229F04257002CE762 /* DataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContainer.swift; sourceTree = "<group>"; };
 		177E6AAC29EECD1E000E7507 /* diagrams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diagrams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		177E6AAF29EECD1E000E7507 /* diagramsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diagramsApp.swift; sourceTree = "<group>"; };
 		177E6AB129EECD1E000E7507 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,11 +47,22 @@
 		17399F9629EEED57002CE762 /* Structs */ = {
 			isa = PBXGroup;
 			children = (
+				17399F9F29F04197002CE762 /* MyData.swift */,
 				17399F9729EEEDA0002CE762 /* CircleShape.swift */,
 				17399F9929EEF201002CE762 /* DiagramView.swift */,
 				17399F9B29EEF221002CE762 /* CircleView.swift */,
 			);
 			path = Structs;
+			sourceTree = "<group>";
+		};
+		17399FA129F0423D002CE762 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				177E6AB129EECD1E000E7507 /* ContentView.swift */,
+				17399F9D29F040CB002CE762 /* Diagram.swift */,
+				17399FA229F04257002CE762 /* DataContainer.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		177E6AA329EECD1E000E7507 = {
@@ -68,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				177E6AAF29EECD1E000E7507 /* diagramsApp.swift */,
-				177E6AB129EECD1E000E7507 /* ContentView.swift */,
+				17399FA129F0423D002CE762 /* Views */,
 				17399F9629EEED57002CE762 /* Structs */,
 				177E6AB329EECD1F000E7507 /* Assets.xcassets */,
 				177E6AB529EECD1F000E7507 /* Preview Content */,
@@ -156,9 +173,12 @@
 			files = (
 				17399F9A29EEF201002CE762 /* DiagramView.swift in Sources */,
 				17399F9C29EEF221002CE762 /* CircleView.swift in Sources */,
+				17399FA029F04197002CE762 /* MyData.swift in Sources */,
+				17399FA329F04257002CE762 /* DataContainer.swift in Sources */,
 				177E6AB229EECD1E000E7507 /* ContentView.swift in Sources */,
 				177E6AB029EECD1E000E7507 /* diagramsApp.swift in Sources */,
 				17399F9829EEEDA0002CE762 /* CircleShape.swift in Sources */,
+				17399F9E29F040CB002CE762 /* Diagram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
