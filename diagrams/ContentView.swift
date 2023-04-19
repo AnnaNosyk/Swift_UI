@@ -10,40 +10,37 @@ import SwiftUI
 struct ContentView: View {
     
     @State var pickerItem = 0
+    @State var diagramValues:[[CGFloat]] = [
+        [ 50, 130, 120 ],
+        [ 20, 70, 200 ],
+        [ 190, 20, 60 ]
+    
+    ]
     var body: some View {
-      
             ZStack {
                 Color("background").edgesIgnoringSafeArea(.all)
                 VStack {
+                    Spacer(minLength: 100)
                     Text("Analytics").font(.system(size: 30, weight: .semibold, design: .monospaced))
                     Picker(selection: $pickerItem, label:
                             Text("")) {
-                        Text("2021")
-                        Text("2022")
-                        Text("2023")
+                        Text("2021").tag(0)
+                        Text("2022").tag(1)
+                        Text("2023").tag(2)
                     }.pickerStyle(.segmented).padding(.horizontal, 16)
+                    HStack {
+                        CircleView(value: 0.4)
+                        CircleView(value: 0.5)
+                        CircleView(value: 0.7)
+                    }.padding(.top, 16)
                     HStack() {
-                        DiagramView()
-                        DiagramView()
-                        DiagramView()
-                    }
-                  
-                  
+                        DiagramView(value: diagramValues[pickerItem][0])
+                        DiagramView(value: diagramValues[pickerItem][1])
+                        DiagramView(value: diagramValues[pickerItem][2])
+                    }.padding(.top, 16)
+                    Spacer(minLength: 100)
                 }
             }
-    }
-}
-
-
-struct DiagramView: View {
-    var body: some View  {
-        VStack {
-            ZStack(alignment: .bottom) {
-                Rectangle().frame(width: 20, height: 300).foregroundColor(Color.white)
-                Rectangle().frame(width: 20, height: 200).foregroundColor(Color("firstItemColor"))
-            }.padding(.top, 16)
-            Text("11").padding(.top, 4)
-        }
     }
 }
 struct ContentView_Previews: PreviewProvider {
