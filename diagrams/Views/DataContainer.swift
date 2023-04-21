@@ -10,9 +10,11 @@ import SwiftUI
 
 class DataContainer: ObservableObject {
   @Published  var data = [
-    MyData(color: Color("firstItemColor"), percent: 40, value: 0),
-    MyData(color: Color("secondItemColor"), percent: 35, value: 0),
-    MyData(color: Color("thirdItemColor"), percent: 25, value: 0)
+    MyData(color: Color("firstItemColor"), percent: 20, value: 0),
+    MyData(color: Color("secondItemColor"), percent: 15, value: 0),
+    MyData(color: Color("thirdItemColor"), percent: 25, value: 0),
+    MyData(color: Color("fourthItemColor"), percent: 35, value: 0),
+    MyData(color: Color("fifthItemColor"), percent: 5, value: 0)
     ]
     
     func calcPath() {

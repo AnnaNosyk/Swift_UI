@@ -14,6 +14,7 @@ struct Diagram: View {
         ZStack {
             Color("background").edgesIgnoringSafeArea(.all)
             VStack {
+                Text("Analytics").font(.system(size: 30, weight: .semibold, design: .monospaced))
                 circleView.frame(width: 100, height: 200)
                     .onAppear() {
                         self.dataObject.calcPath()
