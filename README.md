@@ -6,9 +6,17 @@
 Test diagrams on SwiftUI
 
 
-https://user-images.githubusercontent.com/77641042/233643203-6b41817c-0a4c-4fbf-8018-4e7ea4164368.mov
 
 
 
-https://user-images.githubusercontent.com/77641042/233643209-a65b1c0d-a34b-4d3f-88f6-6ebc66b2b829.mov
+
+
+
+https://user-images.githubusercontent.com/77641042/233645259-7e72bc48-d21a-4b40-93d0-e40f1f7900c3.mov
+
+
+
+https://user-images.githubusercontent.com/77641042/233645447-adf1479b-3905-4893-a73f-ab0ee098b790.mov
+
+
 
