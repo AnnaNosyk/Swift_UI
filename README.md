@@ -3,7 +3,7 @@
 <img width="337" alt="Знімок екрана 2023-04-21 о 15 02 50" src="https://user-images.githubusercontent.com/77641042/233643159-3789cefa-d332-4a99-97fb-6a130b69fe88.png">
 <img width="325" alt="Знімок екрана 2023-04-21 о 15 03 25" src="https://user-images.githubusercontent.com/77641042/233643162-98c4e057-14d5-40cc-9fe9-88cf23317fd7.png">
 # diagrams
-Test diagrams on SwiftUI
+Diagrams on SwiftUI
 
 
 
