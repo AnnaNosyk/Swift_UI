@@ -13,8 +13,9 @@
 		17399F9E29F040CB002CE762 /* Diagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17399F9D29F040CB002CE762 /* Diagram.swift */; };
 		17399FA029F04197002CE762 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17399F9F29F04197002CE762 /* MyData.swift */; };
 		17399FA329F04257002CE762 /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17399FA229F04257002CE762 /* DataContainer.swift */; };
+		1770FEF52A01552E00F25DC0 /* TipsCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1770FEF42A01552E00F25DC0 /* TipsCounter.swift */; };
 		177E6AB029EECD1E000E7507 /* diagramsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177E6AAF29EECD1E000E7507 /* diagramsApp.swift */; };
-		177E6AB229EECD1E000E7507 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177E6AB129EECD1E000E7507 /* ContentView.swift */; };
+		177E6AB229EECD1E000E7507 /* DiagramsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177E6AB129EECD1E000E7507 /* DiagramsView.swift */; };
 		177E6AB429EECD1F000E7507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177E6AB329EECD1F000E7507 /* Assets.xcassets */; };
 		177E6AB729EECD1F000E7507 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177E6AB629EECD1F000E7507 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -26,9 +27,10 @@
 		17399F9D29F040CB002CE762 /* Diagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagram.swift; sourceTree = "<group>"; };
 		17399F9F29F04197002CE762 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
 		17399FA229F04257002CE762 /* DataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContainer.swift; sourceTree = "<group>"; };
+		1770FEF42A01552E00F25DC0 /* TipsCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsCounter.swift; sourceTree = "<group>"; };
 		177E6AAC29EECD1E000E7507 /* diagrams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diagrams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		177E6AAF29EECD1E000E7507 /* diagramsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diagramsApp.swift; sourceTree = "<group>"; };
-		177E6AB129EECD1E000E7507 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		177E6AB129EECD1E000E7507 /* DiagramsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramsView.swift; sourceTree = "<group>"; };
 		177E6AB329EECD1F000E7507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		177E6AB629EECD1F000E7507 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,9 +60,10 @@
 		17399FA129F0423D002CE762 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				177E6AB129EECD1E000E7507 /* ContentView.swift */,
+				177E6AB129EECD1E000E7507 /* DiagramsView.swift */,
 				17399F9D29F040CB002CE762 /* Diagram.swift */,
 				17399FA229F04257002CE762 /* DataContainer.swift */,
+				1770FEF42A01552E00F25DC0 /* TipsCounter.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,7 +178,8 @@
 				17399F9C29EEF221002CE762 /* CircleView.swift in Sources */,
 				17399FA029F04197002CE762 /* MyData.swift in Sources */,
 				17399FA329F04257002CE762 /* DataContainer.swift in Sources */,
-				177E6AB229EECD1E000E7507 /* ContentView.swift in Sources */,
+				177E6AB229EECD1E000E7507 /* DiagramsView.swift in Sources */,
+				1770FEF52A01552E00F25DC0 /* TipsCounter.swift in Sources */,
 				177E6AB029EECD1E000E7507 /* diagramsApp.swift in Sources */,
 				17399F9829EEEDA0002CE762 /* CircleShape.swift in Sources */,
 				17399F9E29F040CB002CE762 /* Diagram.swift in Sources */,

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DiagramsView: View {
     
     @State var pickerItem = 0
     @State var diagramValues:[[CGFloat]] = [
@@ -51,8 +51,8 @@ struct ContentView: View {
             }
     }
 }
-struct ContentView_Previews: PreviewProvider {
+struct DiagramsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        DiagramsView()
     }
 }
