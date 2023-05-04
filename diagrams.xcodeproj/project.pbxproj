@@ -18,6 +18,7 @@
 		177E6AB229EECD1E000E7507 /* DiagramsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177E6AB129EECD1E000E7507 /* DiagramsView.swift */; };
 		177E6AB429EECD1F000E7507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177E6AB329EECD1F000E7507 /* Assets.xcassets */; };
 		177E6AB729EECD1F000E7507 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177E6AB629EECD1F000E7507 /* Preview Assets.xcassets */; };
+		1788424D2A03F85C0092300D /* TouristsGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788424C2A03F85C0092300D /* TouristsGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		177E6AB129EECD1E000E7507 /* DiagramsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramsView.swift; sourceTree = "<group>"; };
 		177E6AB329EECD1F000E7507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		177E6AB629EECD1F000E7507 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1788424C2A03F85C0092300D /* TouristsGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristsGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				17399F9D29F040CB002CE762 /* Diagram.swift */,
 				17399FA229F04257002CE762 /* DataContainer.swift */,
 				1770FEF42A01552E00F25DC0 /* TipsCounter.swift */,
+				1788424C2A03F85C0092300D /* TouristsGame.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1788424D2A03F85C0092300D /* TouristsGame.swift in Sources */,
 				17399F9A29EEF201002CE762 /* DiagramView.swift in Sources */,
 				17399F9C29EEF221002CE762 /* CircleView.swift in Sources */,
 				17399FA029F04197002CE762 /* MyData.swift in Sources */,
